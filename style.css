@@ -1,0 +1,10 @@
+.btn {
+    background-color: #1847ad;
+    color: #fff;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgb(66, 2, 68);
+    text-shadow: 1.5px 1.3px 1.5px rgb(32, 2, 7);
+}
+.input {
+    background-color: #e5e90c;
+}
