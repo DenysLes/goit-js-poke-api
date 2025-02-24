@@ -13,14 +13,3 @@ fetch('https://pokeapi.co/api/v2/pokemon/2')
   .catch(error => {
     console.log(error);
   });
-function createMarkup(keysPokemon) {
-  return keysPokemon
-    .map(
-      (name, weight, height) => `<li>
-        <p>${'name'}</p>
-        <h2>${'weight'}</h2>
-        <h3>${'height'}</h3>
-      </li>`,
-    )
-    .join('');
-}
