@@ -1,4 +1,4 @@
-import pokemonCardTpl  from '../templates/pokemon-card.hbs'
+// import pokemonCardTpl  from '../templates/pokemon-card.hbs'
 
 fetch('https://pokeapi.co/api/v2/pokemon/2')
     .then(response => {
@@ -6,8 +6,8 @@ fetch('https://pokeapi.co/api/v2/pokemon/2')
     })
     .then(pokemon => {
         console.log(pokemon);
-        const markup = pokemonCardTpl(pokemon);
-        console.log(markup);
+        // const markup = pokemonCardTpl(pokemon);
+        // console.log(markup);
     })
     .catch(error => {
         console.log(error);
