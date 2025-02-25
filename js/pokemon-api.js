@@ -1,5 +1,5 @@
 // import pokemonCardTpl from '../templates/pokemon-card.hbs';
-const list = document.querySelector('.js-list');
+// const list = document.querySelector('.js-list');
 
 fetch('https://pokeapi.co/api/v2/pokemon/2')
   .then(response => {
